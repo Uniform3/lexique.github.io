@@ -1,5 +1,1325 @@
 [
     {
+        "Nom Japonais": "Ichi",
+        "Description": "1",
+        "Tags": [
+            "Chiffres",
+            "Compter"
+        ]
+    },
+    {
+        "Nom Japonais": "Ni",
+        "Description": "2",
+        "Tags": [
+            "Chiffres",
+            "Compter"
+        ]
+    },
+    {
+        "Nom Japonais": "San",
+        "Description": "3",
+        "Tags": [
+            "Chiffres",
+            "Compter"
+        ]
+    },
+    {
+        "Nom Japonais": "Shi",
+        "Description": "4",
+        "Tags": [
+            "Chiffres",
+            "Compter"
+        ]
+    },
+    {
+        "Nom Japonais": "Go",
+        "Description": "5",
+        "Tags": [
+            "Chiffres",
+            "Compter"
+        ]
+    },
+    {
+        "Nom Japonais": "Roku",
+        "Description": "6",
+        "Tags": [
+            "Chiffres",
+            "Compter"
+        ]
+    },
+    {
+        "Nom Japonais": "Sichi",
+        "Description": "7",
+        "Tags": [
+            "Chiffres",
+            "Compter"
+        ]
+    },
+    {
+        "Nom Japonais": "Hachi",
+        "Description": "8",
+        "Tags": [
+            "Chiffres",
+            "Compter"
+        ]
+    },
+    {
+        "Nom Japonais": "Ku",
+        "Description": "9",
+        "Tags": [
+            "Chiffres",
+            "Compter"
+        ]
+    },
+    {
+        "Nom Japonais": "Ju",
+        "Description": "10",
+        "Tags": [
+            "Chiffres",
+            "Compter"
+        ]
+    },
+    {
+        "Nom Japonais": "Juichi",
+        "Description": "11",
+        "Tags": [
+            "Chiffres",
+            "Compter"
+        ]
+    },
+    {
+        "Nom Japonais": "Juni",
+        "Description": "12",
+        "Tags": [
+            "Chiffres",
+            "Compter"
+        ]
+    },
+    {
+        "Nom Japonais": "Niju",
+        "Description": "20",
+        "Tags": [
+            "Chiffres",
+            "Compter"
+        ]
+    },
+    {
+        "Nom Japonais": "Sanju",
+        "Description": "30",
+        "Tags": [
+            "Chiffres",
+            "Compter"
+        ]
+    },
+    {
+        "Nom Japonais": "Shiro",
+        "Description": "Blanc",
+        "Tags": [
+            "Ceinture",
+            "Couleur",
+            "Couleurs",
+            "Grade",
+            "Niveau"
+        ]
+    },
+    {
+        "Nom Japonais": "Kiiro",
+        "Description": "Jaune",
+        "Tags": [
+            "Ceinture",
+            "Couleur",
+            "Couleurs",
+            "Grade",
+            "Niveau"
+        ]
+    },
+    {
+        "Nom Japonais": "Orengiiro",
+        "Description": "Orange",
+        "Tags": [
+            "Ceinture",
+            "Couleur",
+            "Couleurs",
+            "Grade",
+            "Niveau"
+        ]
+    },
+    {
+        "Nom Japonais": "Midori",
+        "Description": "Vert",
+        "Tags": [
+            "Ceinture",
+            "Couleur",
+            "Couleurs",
+            "Grade",
+            "Niveau"
+        ]
+    },
+    {
+        "Nom Japonais": "Ao",
+        "Description": "Bleu",
+        "Tags": [
+            "Ceinture",
+            "Couleur",
+            "Couleurs",
+            "Grade",
+            "Niveau"
+        ]
+    },
+    {
+        "Nom Japonais": "Chairo",
+        "Description": "Brun/Maron",
+        "Tags": [
+            "Ceinture",
+            "Couleur",
+            "Couleurs",
+            "Grade",
+            "Niveau"
+        ]
+    },
+    {
+        "Nom Japonais": "Kuro",
+        "Description": "Noir",
+        "Tags": [
+            "Ceinture",
+            "Couleur",
+            "Couleurs",
+            "Grade",
+            "Niveau"
+        ]
+    },
+    {
+        "Nom Japonais": "Ashi-barai",
+        "Description": "Balayage (Barai) de jambe avec le pied (Ashi)",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Coup de Pieds",
+            "Jambes",
+            "Kick",
+            "Pieds"
+        ]
+    },
+    {
+        "Nom Japonais": "Ashibo-uke",
+        "Description": "Boquer avec le tibia, genou plié relevé très haut. Si la cheville est bien anglée, la technique peut accrocher (Kake) le membre adverse en cours de mouvement (Ashibo-kake-uke)",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Coup de Pieds",
+            "Jambes",
+            "Kick",
+            "Pieds"
+        ]
+    },
+    {
+        "Nom Japonais": "Ashi-gake",
+        "Description": "Crochetage (Kake) de la jambe avec le pied; à noter que Kake devient Gake car il est précédé d'un élément descriptif",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Coup de Pieds",
+            "Jambes",
+            "Kick",
+            "Pieds"
+        ]
+    },
+    {
+        "Nom Japonais": "Gedan-kesage",
+        "Description": "Coup de pied armé haut à l'oblique pour écraser vers le bas (Bassai dai)",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Coup de Pieds",
+            "Jambes",
+            "Kick",
+            "Pieds"
+        ]
+    },
+    {
+        "Nom Japonais": "Hiza-geri",
+        "Description": "Coup direct du genou (aussi Hiza-zuki), coup de genou (Hiza-uchi), défense avec le genou (Hiza-uke); aussi Hittsui-geri (Hiza-zuki et Hiza-uchi exécutés dans Pinan Yondan 4<sup>e</sup>)",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Coup de Pieds",
+            "Jambes",
+            "Kick",
+            "Pieds"
+        ]
+    },
+    {
+        "Nom Japonais": "Kekomi",
+        "Description": "Coup de pied entrant profondément (Chairo moto waza)",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Coup de Pieds",
+            "Jambes",
+            "Kick",
+            "Pieds"
+        ]
+    },
+    {
+        "Nom Japonais": "Kin-geri",
+        "Description": "Coup de pied direct avec le dessus de la cheville, fouetté de bas en haut vers le bas-ventre",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Coup de Pieds",
+            "Jambes",
+            "Kick",
+            "Pieds"
+        ]
+    },
+    {
+        "Nom Japonais": "Kyobu-geri",
+        "Description": "Coup de pied visant la poitrine (Kyobu)",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Coup de Pieds",
+            "Jambes",
+            "Kick",
+            "Pieds"
+        ]
+    },
+    {
+        "Nom Japonais": "Mae-geri",
+        "Description": "Coup de pied direct vers l'avant (Mae)",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Coup de Pieds",
+            "Jambes",
+            "Kick",
+            "Pieds"
+        ]
+    },
+    {
+        "Nom Japonais": "Mae-tobi-geri",
+        "Description": "Coup de pied sauté (tobi) direct vers l'avant",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Coup de Pieds",
+            "Jambes",
+            "Kick",
+            "Pieds"
+        ]
+    },
+    {
+        "Nom Japonais": "Mawashi-geri",
+        "Description": "Coup de pied circulaire fouetté, de l'extérieur vers l'intérieur; on frappe généralement avec la partie charnue sous les orteils. Pour notre école, on frappe avec le dessus du pied et de la cheville; ce qui est en fait un Kubi-mawashi-geri qui vise principalement le cou (Kubi) mais qui a une efficacité démontrée à d'autres niveaux, soit aux flancs, aux reins, aux genoux ou aux côtés de la tête",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Coup de Pieds",
+            "Jambes",
+            "Kick",
+            "Pieds"
+        ]
+    },
+    {
+        "Nom Japonais": "Mikazuki-geri",
+        "Description": "Coup-de-pied en croissant de lune, de l'extérieur vers l'intérieur avec la plante du pied (teisoku); de l'intérieur vers l'extérieur (Gyaku-mikazuki-geri) avec le tranchant du pied (Sokuto); aussi utilisé pour bloquer (Mikazuki-uke) (Pinan sandan \\[3^e^\\])",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Coup de Pieds",
+            "Jambes",
+            "Kick",
+            "Pieds"
+        ]
+    },
+    {
+        "Nom Japonais": "Nami-ashi-geri",
+        "Description": "Coup de pied en balayage remontant «en vague» (Nami) pour bloquer (Naihanchi shodan (1<sup>er</sup>))",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Coup de Pieds",
+            "Jambes",
+            "Kick",
+            "Pieds"
+        ]
+    },
+    {
+        "Nom Japonais": "Nidan-geri",
+        "Description": "Double coup-de-pied venant du pied arrière suivi du pied avant dans une action sautée (Tobi-geri)visant deux hauteurs différentes",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Coup de Pieds",
+            "Jambes",
+            "Kick",
+            "Pieds"
+        ]
+    },
+    {
+        "Nom Japonais": "Otoshi-geri",
+        "Description": "Coup de pied vers le bas, d'abord feinté vers le haut en diagonale puis redescendu vers le centre; aussi Fumikomi-geri (connu sous Drop kick)",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Coup de Pieds",
+            "Jambes",
+            "Kick",
+            "Pieds"
+        ]
+    },
+    {
+        "Nom Japonais": "Sokutei-osae-uke",
+        "Description": "Blocage (Uke) poussé (Osae) de la plante du pied (Sokutei)",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Coup de Pieds",
+            "Jambes",
+            "Kick",
+            "Pieds"
+        ]
+    },
+    {
+        "Nom Japonais": "Surikonde-geri-waza",
+        "Description": "Techniques (Waza) de coup de pied (Keri) avec pas (Ashi) chassé (Suri) en «entrant» (Konde) vers l'adversaire, de l'avant (Mae), de côté (Yoko)",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Coup de Pieds",
+            "Jambes",
+            "Kick",
+            "Pieds"
+        ]
+    },
+    {
+        "Nom Japonais": "Tobi-geri",
+        "Description": "Coup de pied (Keri) sauté (Tobi)",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Coup de Pieds",
+            "Jambes",
+            "Kick",
+            "Pieds"
+        ]
+    },
+    {
+        "Nom Japonais": "Tobi-mawashi-geri",
+        "Description": "Coup de pied sauté circulaire fouetté (Mawashi) de l'intérieur vers l'extérieur",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Coup de Pieds",
+            "Jambes",
+            "Kick",
+            "Pieds"
+        ]
+    },
+    {
+        "Nom Japonais": "Tobi-ushiro-mawashi-geri",
+        "Description": "Coup de pied sauté circulaire fouetté vers l'arrière (Ushiro); aussi Ushiro-mawashi-tobi-geri",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Coup de Pieds",
+            "Jambes",
+            "Kick",
+            "Pieds"
+        ]
+    },
+    {
+        "Nom Japonais": "Tsumasaki-geri",
+        "Description": "Frappe de la pointe des orteils étroitement serrées (Tsumasaki), avec laquelle il est possible d'attaquer des points vitaux très précis; aussi Ashi-nukite",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Coup de Pieds",
+            "Jambes",
+            "Kick",
+            "Pieds"
+        ]
+    },
+    {
+        "Nom Japonais": "Ura-mawashi-geri",
+        "Description": "Coup de pied circulaire fouetté inversé (Ura) vers l'avant, de l'intérieur vers l'extérieur avec le dessous du pied. Aussi utilisé pour crocheter (Kake) avec le talon. (connu sous Hook-kick)",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Coup de Pieds",
+            "Jambes",
+            "Kick",
+            "Pieds"
+        ]
+    },
+    {
+        "Nom Japonais": "Ushiro-geri",
+        "Description": "Coup de pied direct vers l'arrière, donné avec le talon (Kakato)",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Coup de Pieds",
+            "Jambes",
+            "Kick",
+            "Pieds"
+        ]
+    },
+    {
+        "Nom Japonais": "Ushiro-mawashi-geri",
+        "Description": "Coup de pied circulaire fouetté avec rotation des hanches vers l'arrière avec le dessous du pied ou le talon (connu sous Spinning back kick)",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Coup de Pieds",
+            "Jambes",
+            "Kick",
+            "Pieds"
+        ]
+    },
+    {
+        "Nom Japonais": "Ushiro-tobi-geri",
+        "Description": "Coup de pied sauté vers l'arrière (Chairo moto waza)",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Coup de Pieds",
+            "Jambes",
+            "Kick",
+            "Pieds"
+        ]
+    },
+    {
+        "Nom Japonais": "Yoko-geri",
+        "Description": "Coup de pied (Keri) de côté (Yoko) avec le tranchant du pied \"sabre de pied\" (Sokuto)",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Coup de Pieds",
+            "Jambes",
+            "Kick",
+            "Pieds"
+        ]
+    },
+    {
+        "Nom Japonais": "Yoko-geri-keage",
+        "Description": "Coup de pied de côté fouetté en remontant (Keage) (Pinan yondan 4<sup>e</sup>)",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Coup de Pieds",
+            "Jambes",
+            "Kick",
+            "Pieds"
+        ]
+    },
+    {
+        "Nom Japonais": "Yoko-geri-kekomi",
+        "Description": "Coup de pied de côté pénétrant (Kekomi) impliquant énergiquement les hanches",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Coup de Pieds",
+            "Jambes",
+            "Kick",
+            "Pieds"
+        ]
+    },
+    {
+        "Nom Japonais": "Yoko-sashi-ashi",
+        "Description": "Enjambement latéral (Pinan yondan 4<sup>e</sup>)",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Balayage",
+            "Jambes",
+            "Pieds"
+        ]
+    },
+    {
+        "Nom Japonais": "Yoko-tobi-geri",
+        "Description": "Coup de pied sauté",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Coup de Pieds",
+            "Jambes",
+            "Kick",
+            "Pieds"
+        ]
+    },
+    {
+        "Nom Japonais": "Fudô-dachi",
+        "Description": "Position de combat immobile, enracinée (Fudô);aussi Sochin-dachi: force (So) tranquille (chin)",
+        "Répartition du poids (%) arrière/avant": "50/50",
+        "Tags": [
+            "Position",
+            "Positions",
+            "Dachi"
+        ]
+    },
+    {
+        "Nom Japonais": "Hachiji-dachi",
+        "Description": "Position d'attente naturelle, talons à largeur des hanches et orteils ouverts vers l'extérieur; aussi Yoi-dachi",
+        "Répartition du poids (%) arrière/avant": "50/50",
+        "Tags": [
+            "Position",
+            "Positions",
+            "Dachi"
+        ]
+    },
+    {
+        "Nom Japonais": "Heiko-dachi",
+        "Description": "Position d'attente naturelle, largeur des hanches, pieds parallèles",
+        "Répartition du poids (%) arrière/avant": "50/50",
+        "Tags": [
+            "Position",
+            "Positions",
+            "Dachi"
+        ]
+    },
+    {
+        "Nom Japonais": "Heisoku-dachi",
+        "Description": "Posture pieds joints; mains ouvertes, la gauche recouvrant la droite, bras tendu vers le bas: position de départ du kata Naihanchi shodan (1er); poing droit recouvert par la main gauche ouverte, bras tendus vers le bas: position de départ du kata Bassai-Dai",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Position",
+            "Positions",
+            "Dachi"
+        ]
+    },
+    {
+        "Nom Japonais": "Jiai-gamae",
+        "Description": "Posture pieds joints (Heisoku-dachi), poing droit recouvert par la main gauche et tenus à la hauteur du cou, coudes près des flancs: position de départ pour les Katas Jion, Jiin, Jitte",
+        "Répartition du poids (%) arrière/avant": "50/50",
+        "Tags": [
+            "Position",
+            "Positions",
+            "Dachi"
+        ]
+    },
+    {
+        "Nom Japonais": "Kake-dachi",
+        "Description": "Position pieds croisés, poids du corps principalement sur pied avant, pied arrière talon levé (Pinan yondan \\[4^e^\\])",
+        "Répartition du poids (%) arrière/avant": "10/90",
+        "Tags": [
+            "Position",
+            "Positions",
+            "Dachi"
+        ]
+    },
+    {
+        "Nom Japonais": "Kamae**",
+        "Description": "En garde! Position, garde de combat",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Position",
+            "Positions",
+            "Dachi"
+        ]
+    },
+    {
+        "Nom Japonais": "Kiba-dachi**",
+        "Description": "Position du cavalier, pieds largement écartés et parallèles, talons sur une même ligne, genoux pliés et tendus vers l'extérieur",
+        "Répartition du poids (%) arrière/avant": "50/50",
+        "Tags": [
+            "Position",
+            "Positions",
+            "Dachi"
+        ]
+    },
+    {
+        "Nom Japonais": "Kôkutsu-dachi",
+        "Description": "Position vers l'arrière, jambe arrière fortement fléchie, jambe avant légèrement fléchie, pieds en L sur une même ligne (3^e^ forme)",
+        "Répartition du poids (%) arrière/avant": "70/30",
+        "Tags": [
+            "Position",
+            "Positions",
+            "Dachi"
+        ]
+    },
+    {
+        "Nom Japonais": "Kôsa-ashi-dachi",
+        "Description": "Position pieds croisés; ex.: déplacement latéral en kiba-dachi",
+        "Répartition du poids (%) arrière/avant": "50/50",
+        "Tags": [
+            "Position",
+            "Positions",
+            "Dachi"
+        ]
+    },
+    {
+        "Nom Japonais": "Musubi-dachi",
+        "Description": "Position d'attente, talons joints, orteils ouverts vers l'extérieur",
+        "Répartition du poids (%) arrière/avant": "50/50",
+        "Tags": [
+            "Position",
+            "Positions",
+            "Dachi"
+        ]
+    },
+    {
+        "Nom Japonais": "Nekoashi-dachi",
+        "Description": "Position du chat, \"Kôkutsu rétréci\", pied et genou arrières à 45° vers l'avant",
+        "Répartition du poids (%) arrière/avant": "90/10",
+        "Tags": [
+            "Position",
+            "Positions",
+            "Dachi"
+        ]
+    },
+    {
+        "Nom Japonais": "Ryôken-koshi-gamae",
+        "Description": "Posture dans laquelle chaque poing est appliqué contre le flanc, au-dessus de sa hanche respective (Pinan sandan \\[3^e^\\])",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Position",
+            "Positions",
+            "Dachi"
+        ]
+    },
+    {
+        "Nom Japonais": "Sanchin-dachi",
+        "Description": "Position du sablier, largeur des hanches, talon du pied avant sur ligne des orteils du pied arrière, genoux fléchis et tendus vers l'intérieur",
+        "Répartition du poids (%) arrière/avant": "50/50",
+        "Tags": [
+            "Position",
+            "Positions",
+            "Dachi"
+        ]
+    },
+    {
+        "Nom Japonais": "Shiko-dachi",
+        "Description": "Position du sumo, comme Kiba-dachi sauf pieds ouverts à 45° (Ao moto waza)",
+        "Répartition du poids (%) arrière/avant": "50/50",
+        "Tags": [
+            "Position",
+            "Positions",
+            "Dachi"
+        ]
+    },
+    {
+        "Nom Japonais": "Shizen-dachi",
+        "Description": "Position naturelle debout; aussi Shizen-tai",
+        "Répartition du poids (%) arrière/avant": "50/50",
+        "Tags": [
+            "Position",
+            "Positions",
+            "Dachi"
+        ]
+    },
+    {
+        "Nom Japonais": "Tachi-gata",
+        "Description": "Ouverture et position de départ pour exécuter un kata (connu à notre école sous Dachi-kata)",
+        "Répartition du poids (%) arrière/avant": "50/50",
+        "Tags": [
+            "Position",
+            "Positions",
+            "Dachi"
+        ]
+    },
+    {
+        "Nom Japonais": "Yoi-dachi",
+        "Description": "Position naturelle debout avec poings devant à la hauteur de la ceinture. Pour notre école: position Kiba-dachi au lieu de naturelle debout",
+        "Répartition du poids (%) arrière/avant": "50/50",
+        "Tags": [
+            "Position",
+            "Positions",
+            "Dachi"
+        ]
+    },
+    {
+        "Nom Japonais": "Zenkutsu-dachi",
+        "Description": "Position vers l'avant, jambe arrière tendue, jambe avant fortement fléchie (90°), large écart frontal des pieds",
+        "Répartition du poids (%) arrière/avant": "40/60",
+        "Tags": [
+            "Position",
+            "Positions",
+            "Dachi"
+        ]
+    },
+    {
+        "Nom Japonais": "Age-empi-uchi",
+        "Description": "Coup de la pointe du coude de bas en haut à la verticale; aussi Tate-empi-uchi, Tate-hiji-ate (Ao moto waza)",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Bras",
+            "Mains"
+        ]
+    },
+    {
+        "Nom Japonais": "Atama-zuki",
+        "Description": "Coup porté avec la tête Boshiken Coup porté avec le pouce serré et tendu le long du poing fermé; aussi Shito-ken",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Bras",
+            "Mains"
+        ]
+    },
+    {
+        "Nom Japonais": "Bukôtsu-nage",
+        "Description": "Technique de projection au sol après un coup d'arrêt porté au haut du thorax et glissé à la gorge avec fourche de main (Kokô) \"gueule du tigre\" (Pinan yondan <sup>4e</sup>)",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Bras",
+            "Mains"
+        ]
+    },
+    {
+        "Nom Japonais": "Chûdan-uchi-uke",
+        "Description": "Blocage (Uke) de l'intérieur vers l'extérieur (Uchi) au niveau moyen (Chûdan) (Kata sandan <sup>3e</sup>)",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Bras",
+            "Mains"
+        ]
+    },
+    {
+        "Nom Japonais": "Chûdan-soto-uke",
+        "Description": "Blocage de l'extérieur vers l'intérieur (Soto) au niveau moyen (Bassai dai)",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Bras",
+            "Mains"
+        ]
+    },
+    {
+        "Nom Japonais": "Chûdan-yoko-uke",
+        "Description": "Blocage niveau moyen de côté",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Bras",
+            "Mains"
+        ]
+    },
+    {
+        "Nom Japonais": "Dan-zuki",
+        "Description": "Coups de poing en succession à des niveaux différents",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Bras",
+            "Mains"
+        ]
+    },
+    {
+        "Nom Japonais": "Fudo-ken-zuki",
+        "Description": "Coup de poing tenu verticalement, pouce vers le haut, base (éminence hypothénar) vers le bas, convient aux coups portés à mi-distance; aussi Tate-ken-zuki",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Bras",
+            "Mains"
+        ]
+    },
+    {
+        "Nom Japonais": "Furi-zuki",
+        "Description": "Coup de poing circulaire avec grande amplitude",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Bras",
+            "Mains"
+        ]
+    },
+    {
+        "Nom Japonais": "Gai-wan-uke",
+        "Description": "Blocage (Uke) du tranchant externe de l'avant-bras (Gai-wan) (Chairo moto waza)",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Bras",
+            "Mains"
+        ]
+    },
+    {
+        "Nom Japonais": "Gedan-barai-uke",
+        "Description": "Blocage balayé (Barai) niveau bas (Gedan) (Kata shôdan 1<sup>er</sup>)",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Bras",
+            "Mains"
+        ]
+    },
+    {
+        "Nom Japonais": "Gedan-kosa-zuki",
+        "Description": "Coups de poings descendants en croix (Pinan godan 5<sup>e</sup>)",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Bras",
+            "Mains"
+        ]
+    },
+    {
+        "Nom Japonais": "Gedan-yoko-barai-uke",
+        "Description": "Blocage balayé niveau bas de côté (Yoko) (Midori moto waza)",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Bras",
+            "Mains"
+        ]
+    },
+    {
+        "Nom Japonais": "Gyaku-ken",
+        "Description": "Coup de poing sans rotation, doigts vers le haut comme au départ à la ceinture, convient aux coups à courte distance",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Bras",
+            "Mains"
+        ]
+    },
+    {
+        "Nom Japonais": "Gyaku-zuki",
+        "Description": "Coup de poing direct (du côté de la jambe arrière)",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Bras",
+            "Mains"
+        ]
+    },
+    {
+        "Nom Japonais": "Haishu-uchi",
+        "Description": "Coup porté avec le dos de la main ouverte, généralement de l'intérieur vers l'extérieur, visant le plexus, les côtes flottantes ou le dos",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Bras",
+            "Mains"
+        ]
+    },
+    {
+        "Nom Japonais": "Haishu-uke",
+        "Description": "Blocage (Uke) du dos de la main ouverte, généralement de l'intérieur vers l'extérieur",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Bras",
+            "Mains"
+        ]
+    },
+    {
+        "Nom Japonais": "Haitô",
+        "Description": "\"Sabre de pouce\", main ouverte, doigts allongés et en contact mais égèrement arqués pour plus de solidité, pouce plié et légèrement glissé sous la main, on utilise le tranchant interne de la main, allant de la base du pouce jusqu'à l'index. Pour frapper (Haitô-uchi) ou rarement pour bloquer (Haitô-uke) (Ao moto waza)",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Bras",
+            "Mains"
+        ]
+    },
+    {
+        "Nom Japonais": "Heiko-zuki",
+        "Description": "Coup de poing double parallèle Hirabasami-uke Main en «gueule du tigre» pour coup à la gorge ou au flanc; aussi Kokô ou Toho (Pinan yondan \\[4e\\])",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Bras",
+            "Mains"
+        ]
+    },
+    {
+        "Nom Japonais": "Hira-ken",
+        "Description": "Coup de poing demi fermé à plat (poing démon); aussi Nakadaka-ken (Ao moto waza)",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Bras",
+            "Mains"
+        ]
+    },
+    {
+        "Nom Japonais": "Hirate-uchi",
+        "Description": "Coup porté (Uchi) avec le plat ou paume (Hira) de la main (Te)",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Bras",
+            "Mains"
+        ]
+    },
+    {
+        "Nom Japonais": "Ippon-nukite",
+        "Description": "Pique de main à un seul doigt (l'index) pour frapper des points vitaux précis: yeux, gorge, plexus (Ao moto waza)",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Bras",
+            "Mains"
+        ]
+    },
+    {
+        "Nom Japonais": "Jôdan-age-uke",
+        "Description": "Blocage (Uke) vers le haut (Age) au niveau haut (Jôdan) (Kata yondan 4<sup>e</sup>)",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Bras",
+            "Mains"
+        ]
+    },
+    {
+        "Nom Japonais": "Juji-uke",
+        "Description": "Blocage avec les mains placées en croix (Juji), mains ouvertes (Kaishu-juji-uke) ou poings fermés (Ken-juji-uke). Aussi Hasami-uke (Pinan godan <sup>5e</sup>)",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Bras",
+            "Mains"
+        ]
+    },
+    {
+        "Nom Japonais": "Kake-haitô-uke",
+        "Description": "Blocage crocheté (Kake) du \"sabre de main\" interne (Haitô) puis rotation du poignet",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Bras",
+            "Mains"
+        ]
+    },
+    {
+        "Nom Japonais": "Kake-shuto-uke",
+        "Description": "Blocage crocheté du \"sabre de main\" externe (Shuto) par lequel on saisit au contact le poignet de l'adversaire",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Bras",
+            "Mains"
+        ]
+    },
+    {
+        "Nom Japonais": "Kake-zuki",
+        "Description": "Coup de poing crocheté; aussi Kagi-zuki (Naihanchi shôdan 1<sup>er</sup>)",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Bras",
+            "Mains"
+        ]
+    },
+    {
+        "Nom Japonais": "Kakie",
+        "Description": "Mains collées ou poussée des mains avec l'adversaire",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Bras",
+            "Mains"
+        ]
+    },
+    {
+        "Nom Japonais": "Kakiwake-uke",
+        "Description": "Blocage des deux bras croisés puis en écartant, généralement à hauteur moyenne, pour contrer une tentative de saisie frontale à deux mains au niveau des épaules Kakushi-zuki Coup de poing caché provenant de l'arrière (Pinan sandan 3<sup>e</sup>)",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Bras",
+            "Mains"
+        ]
+    },
+    {
+        "Nom Japonais": "Kakuto",
+        "Description": "Coup (Kakuto-uchi) ou bloc (Kakuto-uke) du dos du poignet plié au maximum avec appel du poignet plié en sens inverse; aussi Koken-uchi et uke",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Bras",
+            "Mains"
+        ]
+    },
+    {
+        "Nom Japonais": "Keitô",
+        "Description": "«Crête de coq», dessus du poignet plié vers le bas en Shutô pour bloquer (Keitô-uke) ou frapper (Keitô-uchi)",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Bras",
+            "Mains"
+        ]
+    },
+    {
+        "Nom Japonais": "Kokô-gamae",
+        "Description": "Posture des mains disposées en \"gueule du tigre\" (Kokô) pour saisir simultanément la gorge et le bas-ventre",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Bras",
+            "Mains"
+        ]
+    },
+    {
+        "Nom Japonais": "Kôsa-gamae",
+        "Description": "Double défense, un bras en position Gedan-barai-uke et l'autre en Chudan-uchi-uke; aussi Kôsa-uke (Pinan sandan 3<sup>e</sup>)",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Bras",
+            "Mains"
+        ]
+    },
+    {
+        "Nom Japonais": "Koshi-gamae",
+        "Description": "Garde (Kamae) des deux poings retirés au niveau de la hanche, l'un placé au-dessus de l'autre (Pinan nidan 2<sup>e</sup>)",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Bras",
+            "Mains"
+        ]
+    },
+    {
+        "Nom Japonais": "Mae-empi-uchi",
+        "Description": "Coup de coude circulaire vers l'avant (Mae) (Pinan yondan 4<sup>e</sup>)",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Bras",
+            "Mains"
+        ]
+    },
+    {
+        "Nom Japonais": "Manji-gamae",
+        "Description": "Blocage haut arrière et bas avant simultanés (Pinan godan 5<sup>e</sup>)",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Bras",
+            "Mains"
+        ]
+    },
+    {
+        "Nom Japonais": "Morote",
+        "Description": "Technique mobilisant les deux mains et bras",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Bras",
+            "Mains"
+        ]
+    },
+    {
+        "Nom Japonais": "Morote-uchi-uke",
+        "Description": "Blocage double avec poing arrière qui vient renfocer au niveau du coude",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Bras",
+            "Mains"
+        ]
+    },
+    {
+        "Nom Japonais": "Morote-sokumen-zuki",
+        "Description": "Coup de poing double latéral (Jôdan dans Midori moto waza)",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Bras",
+            "Mains"
+        ]
+    },
+    {
+        "Nom Japonais": "Morote-haitô-uchi-uke",
+        "Description": "Haitô \"sabre de main interne\" et Shutô \"sabre de main externe\" exécutés simultanément à différents niveaux de face ou de côté",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Bras",
+            "Mains"
+        ]
+    },
+    {
+        "Nom Japonais": "Nakadaka-ippon-ken",
+        "Description": "Coup de poing avec phalange du majeur en saillie, utilisé notamment pour frapper les points vitaux",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Bras",
+            "Mains"
+        ]
+    },
+    {
+        "Nom Japonais": "Nihon-nukite",
+        "Description": "Pique de main à deux doigts, index et majeur, principalement aux yeux (Ao moto waza)",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Bras",
+            "Mains"
+        ]
+    },
+    {
+        "Nom Japonais": "Nukite",
+        "Description": "Pique de main à quatre doigts tendus pour frapper des points vitaux ; aussi Yonhon-nukite (3e Forme)",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Bras",
+            "Mains"
+        ]
+    },
+    {
+        "Nom Japonais": "Oi-zuki",
+        "Description": "Coup de poing direct (du côté de la jambe avancée)",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Bras",
+            "Mains"
+        ]
+    },
+    {
+        "Nom Japonais": "Osae-uke",
+        "Description": "Blocage poussé",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Bras",
+            "Mains"
+        ]
+    },
+    {
+        "Nom Japonais": "Otoshi-empi-uchi",
+        "Description": "Coup de la pointe du coude de haut en bas à la verticale (Ao moto waza)",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Bras",
+            "Mains"
+        ]
+    },
+    {
+        "Nom Japonais": "Ryôwan",
+        "Description": "Technique mobilisant les deux bras",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Bras",
+            "Mains"
+        ]
+    },
+    {
+        "Nom Japonais": "Ryôwan-uke",
+        "Description": "Blocage (Uke) des deux bras (Ryôwan) (Pinan nidan 2<sup>e</sup>)",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Bras",
+            "Mains"
+        ]
+    },
+    {
+        "Nom Japonais": "Ryôwan-sokumen-uke",
+        "Description": "Blocage latéral (Sokumen) des deux bras (Gedan dans Midori moto waza)",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Bras",
+            "Mains"
+        ]
+    },
+    {
+        "Nom Japonais": "Ryuto-ken",
+        "Description": "Coup de poing demi fermé avec premières phalanges pliées, nommé Tête de dragon",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Bras",
+            "Mains"
+        ]
+    },
+    {
+        "Nom Japonais": "Seiryuto",
+        "Description": "Coup (Seiryuto-uchi) ou blocage (Seiryuto-uke), poignet fortement plié dans le plan du radius pour faire saillir la base du tranchant de la main (Shutô), en utilisant au moment de l'impact un puissant mouvement fouetté du poignet",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Bras",
+            "Mains"
+        ]
+    },
+    {
+        "Nom Japonais": "Shi-zuki",
+        "Description": "Attaque avec la main disposée en «bec d'aigle» (Washide)",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Bras",
+            "Mains"
+        ]
+    },
+    {
+        "Nom Japonais": "Shutô",
+        "Description": "\"Sabre de main\", main ouverte, doigts allongés et en contact mais légèrement arqués pour plus de solidité, pouce plié, on utilise le tranchant externe de la main. La main effectue une rotation sèche juste avant l'impact. Pour frapper (Shutô-uchi) ou bloquer (Shutô-uke) (Pinan nidan 2<sup>e</sup>)",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Bras",
+            "Mains"
+        ]
+    },
+    {
+        "Nom Japonais": "Shutô-osae-uke",
+        "Description": "Blocage poussé (Osae) en Shutô (Bassai dai)",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Bras",
+            "Mains"
+        ]
+    },
+    {
+        "Nom Japonais": "Soe-uke",
+        "Description": "Blocage double comme Morote-uke mais la main arrière vient renforcer en poussant à la base du poing du bras qui bloque en Uchi-uke",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Bras",
+            "Mains"
+        ]
+    },
+    {
+        "Nom Japonais": "Soto-uke",
+        "Description": "Blocage du tranchant extérieur de l'avant-bras, de l'extérieur vers l'intérieur; aussi Soto-ude-uke",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Bras",
+            "Mains"
+        ]
+    },
+    {
+        "Nom Japonais": "Sukui-uke",
+        "Description": "Blocage (Uke) en cuillère (Sukui) pour saisir l'attaque adverse, généralement un coup de pied à hauteur moyenne",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Bras",
+            "Mains"
+        ]
+    },
+    {
+        "Nom Japonais": "Teishô",
+        "Description": "Frappe directe (Teishô-zuki), frappe indirecte (Teishô-uchi) ou blocage (Teishô-uke), fouetté(e) de la paume de la main, doigts vers le haut ou le côté, poignet plié, porté vers le haut ou le bas, de l'intérieur ou l'extérieur",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Bras",
+            "Mains"
+        ]
+    },
+    {
+        "Nom Japonais": "Tettsui",
+        "Description": "Arme naturelle constituée par l'éminence hypothénar, base du poing du côté de l'auriculaire, utilisée en frappes indirectes (Tettsui-uchi) ou blocage (Tettsui-uke ) du \"Marteau de Fer\" à l'horizontale, à la verticale dans un sens comme dans l'autre; aussi Kentsui-uchi et Kentsui-uke",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Bras",
+            "Mains"
+        ]
+    },
+    {
+        "Nom Japonais": "Tobikomi-zuki",
+        "Description": "En garde fondamentale (Kamae), frappe du poing avant avec un bref sursaut (Tobi) vers l'avant",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Bras",
+            "Mains"
+        ]
+    },
+    {
+        "Nom Japonais": "Tomoe-zuki",
+        "Description": "Coup de poing double (Bassai dai)",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Bras",
+            "Mains"
+        ]
+    },
+    {
+        "Nom Japonais": "Uchi-uke",
+        "Description": "Blocage avec l'intérieur de l'avant-bras, de l'intérieur vers l'extérieur; aussi Uchi-ude-uke",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Bras",
+            "Mains"
+        ]
+    },
+    {
+        "Nom Japonais": "Uraken-uchi",
+        "Description": "Coup avec dos du poing (Pinan shodan 1<sup>er</sup>",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Bras",
+            "Mains"
+        ]
+    },
+    {
+        "Nom Japonais": "Ura-tettsui",
+        "Description": "Coup de poing du côté du pouce (marteau de pouce)",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Bras",
+            "Mains"
+        ]
+    },
+    {
+        "Nom Japonais": "Ushiro-empi-uchi",
+        "Description": "Coup de la pointe du coude vers l'arrière et de très près; aussi Ushiro-hiji-ate (double dans Tachi-gata)",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Bras",
+            "Mains"
+        ]
+    },
+    {
+        "Nom Japonais": "Wari-uke-zuki",
+        "Description": "Blocage et coup de poing haut simultanés",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Bras",
+            "Mains"
+        ]
+    },
+    {
+        "Nom Japonais": "Yoko-empi-uchi",
+        "Description": "Coup de la pointe du coude latéral (de côté)",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Bras",
+            "Mains"
+        ]
+    },
+    {
+        "Nom Japonais": "Yoko-shutô-uke",
+        "Description": "Blocage (Uke) de côté (Yoko) main ouverte (Shutô)",
+        "Répartition du poids (%) arrière/avant": "",
+        "Tags": [
+            "Bras",
+            "Mains"
+        ]
+    },
+    {
         "Nom Japonais": "Age",
         "Description": "Vers le haut, action de lever",
         "Répartition du poids (%) arrière/avant": "",
@@ -1763,4 +3083,5 @@
             "Termes Généraux"
         ]
     }
+
 ]
