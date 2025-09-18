@@ -1,0 +1,186 @@
+:root{
+  --bg: #f4f6fb;
+  --card: #ffffff;
+  --muted: #6b7280;
+  --accent: #3751ff;
+  --accent-2: #7b61ff;
+  --success: #16a34a;
+  --glass: rgba(255,255,255,0.6);
+  --radius: 12px;
+  --shadow: 0 6px 20px rgba(19,24,41,0.08);
+  --chip-shadow: 0 4px 12px rgba(19,24,41,0.06);
+}
+
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+  margin:0;
+  font-family:Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background:linear-gradient(180deg,var(--bg),#eef2ff 120%);
+  color:#111827;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  padding:28px;
+}
+
+/* Page container */
+.page{
+  max-width:980px;
+  margin:0 auto;
+  display:flex;
+  flex-direction:column;
+  gap:20px;
+}
+
+/* Hero */
+.hero{
+  background: linear-gradient(90deg, rgba(55,81,255,0.12), rgba(123,97,255,0.06));
+  border-radius: var(--radius);
+  padding:18px 22px;
+  box-shadow: var(--shadow);
+}
+.title{margin:0;font-size:20px}
+.subtitle{margin:6px 0 0;color:var(--muted);font-size:13px}
+
+/* Search panel */
+.search-panel{
+  background:var(--card);
+  padding:18px;
+  border-radius:var(--radius);
+  box-shadow:var(--shadow);
+}
+.search-row{
+  display:flex;
+  gap:12px;
+  align-items:center;
+}
+#searchInput{
+  flex:1;
+  padding:12px 14px;
+  border-radius:10px;
+  border:1px solid #e6e9f2;
+  font-size:15px;
+  background: linear-gradient(180deg,#fff,#fbfdff);
+  outline: none;
+  transition: box-shadow .12s ease, border-color .12s ease;
+}
+#searchInput:focus{box-shadow:0 6px 18px rgba(55,81,255,0.08);border-color:var(--accent)}
+
+.btn-group{display:flex;gap:8px}
+.btn{
+  padding:10px 14px;
+  border-radius:10px;
+  border:1px solid transparent;
+  background:transparent;
+  cursor:pointer;
+  font-weight:600;
+  font-size:14px;
+}
+.btn.primary{
+  background:linear-gradient(90deg,var(--accent),var(--accent-2));
+  color:white;
+  box-shadow: 0 8px 20px rgba(55,81,255,0.16);
+}
+.btn.ghost{
+  background:transparent;
+  color:var(--muted);
+  border:1px solid #eef2ff;
+}
+
+/* Alphabet */
+.alphabet{
+  margin-top:14px;
+  display:flex;
+  gap:8px;
+  flex-wrap:wrap;
+  align-items:center;
+}
+.alphabet button{
+  min-width:36px;
+  height:36px;
+  border-radius:8px;
+  border:1px solid transparent;
+  background:transparent;
+  cursor:pointer;
+  font-weight:600;
+  color:var(--muted);
+  transition: all .12s ease;
+}
+.alphabet button:hover{
+  transform:translateY(-2px);
+  color:var(--accent);
+}
+.alphabet button.active{
+  background: linear-gradient(180deg, rgba(55,81,255,0.12), rgba(123,97,255,0.06));
+  color:var(--accent);
+  border: 1px solid rgba(55,81,255,0.08);
+  box-shadow: 0 6px 18px rgba(55,81,255,0.06);
+}
+
+/* Results */
+.results-section{min-height:120px}
+.results-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}
+.summary{color:var(--muted);font-size:14px}
+.loading{color:var(--muted);font-size:14px}
+.hidden{display:none}
+
+.results{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:14px;
+}
+.card{
+  background:var(--card);
+  border-radius:10px;
+  padding:14px;
+  box-shadow:var(--shadow);
+  border:1px solid #f2f4fb;
+}
+.card h3{margin:0 0 6px;font-size:16px}
+.card p{margin:0 0 12px;color:#374151;font-size:14px;line-height:1.45}
+.meta{display:flex;gap:8px;flex-wrap:wrap}
+.chip{
+  display:inline-flex;
+  align-items:center;
+  padding:6px 10px;
+  border-radius:999px;
+  font-size:12px;
+  background:#f8fafc;
+  color:#0f172a;
+  box-shadow:var(--chip-shadow);
+  border:1px solid #eef2ff;
+}
+
+/* Highlighted search terms */
+mark.highlight{
+  background: linear-gradient(90deg, #fffae6, #fff1b8);
+  padding:0 .2rem;
+  border-radius:4px;
+  color: #92400e;
+}
+
+/* No results */
+.no-results{
+  margin-top:14px;
+  padding:12px;
+  background:#fff8f9;
+  border-radius:10px;
+  color:#7f1d1d;
+  border:1px solid #fde2e2;
+}
+
+/* Footer */
+.footer{color:var(--muted);text-align:right;font-size:12px;margin-top:6px}
+
+/* Accessibility helper */
+.visually-hidden{
+  position:absolute!important;
+  height:1px;width:1px;overflow:hidden;
+  clip:rect(1px,1px,1px,1px);white-space:nowrap;
+}
+
+/* Responsive tweaks */
+@media (max-width:520px){
+  .search-row{flex-direction:column; align-items:stretch}
+  .btn-group{justify-content:flex-end}
+}

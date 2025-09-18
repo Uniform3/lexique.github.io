@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dictionary Search</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="page">
+    <header class="hero">
+      <div class="hero-inner">
+        <h1 class="title">Dictionary — Recherche</h1>
+        <p class="subtitle">Search the <strong>nom japonais</strong> field from <code>output.json</code></p>
+      </div>
+    </header>
+
+    <section class="search-panel">
+      <div class="search-row">
+        <label for="searchInput" class="visually-hidden">Search words</label>
+        <input id="searchInput" type="search" placeholder="Type a word or phrase (nom japonais)" aria-label="Search words" />
+        <div class="btn-group">
+          <button id="searchBtn" class="btn primary">Search</button>
+          <button id="clearBtn" class="btn ghost" title="Clear filters">Clear</button>
+        </div>
+      </div>
+
+      <div id="alphabet" class="alphabet" role="navigation" aria-label="Alphabet filter">
+        <!-- JavaScript inserts A–Z buttons here -->
+      </div>
+    </section>
+
+    <section class="results-section">
+      <div class="results-header">
+        <div id="summary" class="summary">Loading data…</div>
+        <div id="loading" class="loading hidden">Loading…</div>
+      </div>
+
+      <div id="results" class="results" aria-live="polite">
+        <!-- results injected here -->
+      </div>
+
+      <div id="no-results" class="no-results hidden">No results found.</div>
+    </section>
+
+    <footer class="footer">
+      <small>Make sure <code>output.json</code> is in the same folder as this page.</small>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

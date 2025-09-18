@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Word Details</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="page">
+    <header class="hero">
+      <div class="hero-inner">
+        <h1 class="title">Dictionary — Word Details</h1>
+      </div>
+    </header>
+
+    <section id="word-details" class="results-section">
+      <div id="loading" class="loading">Loading…</div>
+    </section>
+
+    <footer class="footer">
+      <a href="head-test.html">← Back to search</a>
+    </footer>
+  </main>
+
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const word = params.get('word');
+    const DATA_URL = 'output.json';
+
+    async function loadWord() {
+      const container = document.getElementById('word-details');
+      const loadingEl = document.getElementById('loading');
+      try {
+        const resp = await fetch(DATA_URL, {cache: "no-store"});
+        const data = await resp.json();
+
+        const entry = data.find(e => (e["Nom Japonais"] || "").trim() === decodeURIComponent(word));
+        if (!entry) {
+          container.innerHTML = "<p>No details found.</p>";
+          return;
+        }
+
+        const title = document.createElement('h2');
+        title.textContent = entry["Nom Japonais"];
+        title.style.fontSize = "28px";
+        title.style.fontWeight = "700";
+
+        const desc = document.createElement('p');
+        desc.textContent = entry.Description || '';
+        desc.style.marginTop = "12px";
+        desc.style.fontSize = "16px";
+
+        const meta = document.createElement('div');
+        meta.className = 'meta';
+        if (entry.Tags) {
+          let tags = [];
+          if (Array.isArray(entry.Tags)) tags = entry.Tags;
+          else if (typeof entry.Tags === 'string') tags = entry.Tags.split(',').map(s => s.trim());
+          tags.forEach(t => {
+            const chip = document.createElement('span');
+            chip.className = 'chip';
+            chip.textContent = t;
+            meta.appendChild(chip);
+          });
+        }
+
+        container.innerHTML = '';
+        container.appendChild(title);
+        container.appendChild(desc);
+        if (meta.children.length) container.appendChild(meta);
+
+      } catch (err) {
+        console.error(err);
+        container.innerHTML = "<p>Error loading word details.</p>";
+      } finally {
+        loadingEl.style.display = "none";
+      }
+    }
+
+    document.addEventListener('DOMContentLoaded', loadWord);
+  </script>
+</body>
+</html>
