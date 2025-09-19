@@ -2,6 +2,8 @@ const DATA_URL = 'output.json'; // file location (same folder)
 let allEntries = [];
 let activeLetter = null;   // "A" .. "Z" or null
 let searchQuery = '';
+let initialRandom = [];    // store random 15 entries
+let firstLoad = true;      // flag to control first render
 
 const alphabetEl = document.getElementById('alphabet');
 const resultsEl = document.getElementById('results');
@@ -28,7 +30,6 @@ function escapeRegex(text) {
   return text.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 }
 
-/* Normalize: remove diacritics if possible */
 function normalizeForCompare(s) {
   if (!s) return '';
   try {
@@ -38,12 +39,10 @@ function normalizeForCompare(s) {
   }
 }
 
-/* Safely get the values from an entry */
 function getNom(entry) {
   return entry && (entry['Nom Japonais'] || entry.Nom || '') + '';
 }
 
-/* Get tags as an array */
 function extractTags(entry) {
   const raw = entry && entry.Tags;
   if (!raw) return [];
@@ -69,6 +68,7 @@ function renderAlphabet() {
     btn.addEventListener('click', () => {
       activeLetter = activeLetter === letter ? null : letter;
       searchInput.value = '';
+      firstLoad = false; // user is filtering now
       renderAlphabet();
       renderResults();
     });
@@ -81,29 +81,38 @@ function renderResults() {
   resultsEl.innerHTML = '';
   loadingEl.classList.add('hidden');
 
-  const q = (searchInput.value || '').trim();
-  searchQuery = q;
-  const qLower = q.toLowerCase();
+  let filtered;
 
-  const filtered = allEntries.filter(entry => {
-    const rawName = (getNom(entry) || '').trim();
-    if (!rawName) return false;
+  // ✅ On very first load, show random 15 items
+  if (firstLoad && initialRandom.length) {
+    filtered = initialRandom;
+    summaryEl.textContent = `Showing 15 random entries out of ${allEntries.length} total.`;
+  } else {
+    const q = (searchInput.value || '').trim();
+    searchQuery = q;
+    const qLower = q.toLowerCase();
 
-    // letter filter
-    if (activeLetter) {
-      const firstChar = rawName.charAt(0);
-      const normalizedFirst = normalizeForCompare(firstChar).toUpperCase();
-      if (normalizedFirst !== activeLetter) return false;
-    }
+    filtered = allEntries.filter(entry => {
+      const rawName = (getNom(entry) || '').trim();
+      if (!rawName) return false;
 
-    // search term filter
-    if (qLower) {
-      return rawName.toLowerCase().includes(qLower);
-    }
-    return true;
-  });
+      if (activeLetter) {
+        const firstChar = rawName.charAt(0);
+        const normalizedFirst = normalizeForCompare(firstChar).toUpperCase();
+        if (normalizedFirst !== activeLetter) return false;
+      }
 
-  summaryEl.textContent = `${filtered.length} result${filtered.length !== 1 ? 's' : ''} found.`;
+      if (qLower) {
+        const nameMatch = rawName.toLowerCase().includes(qLower);
+        const tags = extractTags(entry);
+        const tagMatch = tags.some(t => t.toLowerCase().includes(qLower));
+        return nameMatch || tagMatch;
+      }
+      return true;
+    });
+
+    summaryEl.textContent = `${filtered.length} result${filtered.length !== 1 ? 's' : ''} found.`;
+  }
 
   if (!filtered.length) {
     resultsEl.innerHTML = '';
@@ -111,7 +120,6 @@ function renderResults() {
     return;
   }
 
-  // Create cards
   filtered.forEach(entry => {
     const card = document.createElement('article');
     card.className = 'card';
@@ -143,6 +151,13 @@ function renderResults() {
       const chip = document.createElement('span');
       chip.className = 'chip';
       chip.textContent = t;
+      // highlight tags if search matches
+      if (searchQuery && t.toLowerCase().includes(searchQuery.toLowerCase())) {
+        chip.innerHTML = chip.textContent.replace(
+          new RegExp(escapeRegex(searchQuery), 'gi'),
+          match => `<mark class="highlight">${match}</mark>`
+        );
+      }
       meta.appendChild(chip);
     });
 
@@ -150,7 +165,6 @@ function renderResults() {
     card.appendChild(desc);
     if (tags.length) card.appendChild(meta);
 
-    // ✅ navigate to details page
     card.addEventListener('click', () => {
       const nom = encodeURIComponent(rawName);
       window.location.href = `details.html?word=${nom}`;
@@ -187,6 +201,12 @@ async function loadData() {
       else throw new Error('JSON does not contain an array at top level.');
     }
 
+    // ✅ choose random 15 on load
+    initialRandom = allEntries
+      .slice()
+      .sort(() => 0.5 - Math.random())
+      .slice(0, 15);
+
     summaryEl.textContent = `${allEntries.length} entries loaded.`;
     renderAlphabet();
     renderResults();
@@ -199,11 +219,18 @@ async function loadData() {
 }
 
 /* ---------- Events ---------- */
-searchBtn.addEventListener('click', () => renderResults());
-searchInput.addEventListener('keyup', e => renderResults());
+searchBtn.addEventListener('click', () => {
+  firstLoad = false;
+  renderResults();
+});
+searchInput.addEventListener('keyup', e => {
+  firstLoad = false;
+  renderResults();
+});
 clearBtn.addEventListener('click', () => {
   searchInput.value = '';
   activeLetter = null;
+  firstLoad = false;
   renderAlphabet();
   renderResults();
 });
